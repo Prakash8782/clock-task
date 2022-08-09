@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+ }
+ 
+ body{
+     margin: 0;
+     padding: 0;
+ }
+ .container{
+     justify-content: center;
+     align-items: center;
+ }
+ .clock-holder{
+     margin: 150px 450px;
+     width: 400px;
+     height: 400px;
+ }
+ .dial{
+     width: 400px;
+     height: 400px;
+     border-radius: 50%;
+     position: relative;
+     box-shadow: 0px 0px 25px 25px black;
+     background-color: greenyellow;
+ }
+ .largebar-holder{
+     width: 10px;
+     height: 400px;
+     position: absolute;
+     top: 0;
+     left: 195px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ 
+ 
+ }
+ .largebar{
+     height: 20px;
+     width: 10px;
+     background-color: black;
+ }
+ .smallBar-holder{
+     width: 6px;
+     height: 400px;
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     top: 0;
+     left: 197px;
+     transform: rotate(6deg);
+ }
+ .smallBar{
+     height: 10px;
+     width: 6px;
+     background-color: black;
+ }
+ .hour1{
+     position: absolute;
+     top: 45px;
+     left: 280px;
+ }
+ .hour11{
+     position: absolute;
+     top: 45px;
+     right: 280px;
+ }
+ .hour2{
+     position: absolute;
+     top: 110px;
+     left: 345px;
+ }
+ .hour10{
+     position: absolute;
+     top: 110px;
+     right: 345px;
+ }
+ .hour3{
+     position: absolute;
+     top: 190px;
+     left: 365px;
+ }
+ .hour9{
+     position: absolute;
+     top: 190px;
+     right:365px;
+ }
+ .hour3{
+     position: absolute;
+     top: 190px;
+     left: 365px;
+ }
+ .hour4{
+     position: absolute;
+     bottom: 110px;
+     left: 345px;
+ }
+ .hour8{
+     position: absolute;
+     bottom: 110px;
+     right: 345px;
+ }
+ .hour5{
+     position: absolute;
+     bottom: 45px;
+     left: 280px;
+ }
+ .hour7{
+     position: absolute;
+     bottom: 45px;
+     right: 280px;
+ }
+ .hour6{
+     position: absolute;
+     bottom: 25px;
+     left: 195px;
+ }
+ .hour12{
+     position: absolute;
+     top: 25px;
+     left: 195px;
+ }
+ .dot{
+     width: 15px;
+     height: 15px;
+     background-color: black;
+     border-radius: 50%;
+     position: absolute;
+     top: 194px;
+     left: 188px;
+ }
+ .text{
+     font-size: 28px;
+     position: absolute;
+     top: 100px;
+     left: 150px;
+     text-shadow: 0px 0px 1px 1px black;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .hourhand{
+     width: 80px;
+     border: 2px solid black;
+     position: relative;
+     top: 200px;
+     left: 195px;
+     transform: rotate(120deg);
+     transform-origin: left;
+     background-color: black;
+     opacity: 80%;
+ }
+ .minutehand{
+     width: 150px;
+     border: 2px solid black;
+     position: relative;
+     top: 200px;
+     left: 195px;
+     transform: rotate(80deg);
+     transform-origin: left;
+     background-color: black;
+     opacity: 80%;
+ }
+ .secondhand{
+     width: 150px;
+     border: 1px solid red;
+     background-color: red;
+     position: relative;
+     top: 195px;
+     left: 195px;
+     transform: rotate(160deg);
+     transform-origin: left;
+     opacity: 80%;
+ }
+ 
